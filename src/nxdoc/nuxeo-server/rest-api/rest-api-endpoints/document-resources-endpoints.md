@@ -113,7 +113,7 @@ Here are some examples of the id and Path endpoints.
       </tr>
       <tr>
         <td colspan="1">POST `/api/v1/id/{idOfTheDoc}`</td>
-        <td colspan="1">Updates a document by its id</td>
+        <td colspan="1">Creates a document by its parent id</td>
       </tr>
       <tr>
         <td colspan="1">DELETE `/api/v1/id/{idOfTheDoc}`</td>
@@ -129,7 +129,7 @@ Here are some examples of the id and Path endpoints.
       </tr>
       <tr>
         <td colspan="1">POST `/api/v1/repo/{repoId}/id/{docId}`</td>
-        <td colspan="1">Updates a document by its id in a specific repository</td>
+        <td colspan="1">Creates a document by its parent id in a specific repository</td>
       </tr>
       <tr>
         <td colspan="1">DELETE `/api/v1/repo/{repoId}/id/{docId}`</td>
